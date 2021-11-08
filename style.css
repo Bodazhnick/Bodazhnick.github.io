@@ -1,78 +1,226 @@
-body, h1, h2, h3 ,h4 ,p,a  {
-  margin: 0;
-  font-size: 100%; 
-  font-weight: normal
+Body, h1, h2, h3 ,h4 , p, a {
+    margin:0;
+    font-size:100%;
+    font-weight: normal;
 }
 
-body {
-  font-family: 'Helvetica', 'Arial', sans-serif;
-}
-*{
-  box-sizing:border-box;
+.header{
+height: 10vh;
+background-color: black;
+font-style: italic;
+
 }
 
-.header {
-  height: 100vh;
-  background-color: #eee;
-  background-image: url(https://pictures.s3.yandex.net/frontend-developer/free-course/cover.jpg);
-  background-size: cover;
-  background-position: center;
-  text-align: center;
+.main {
+    background-color: black;
+    height:100%;
+    width:100%;
+    
 }
 
-.header-title {
-  font-size: 140px;
-  color: white;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin:auto;
+.headplace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.textview {
+    color:white;
+    
+    font-family: serif;
+}
+.logo{
+    height: 10vh;
+    
+}
+.logopadding{
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+.textfontheader{
+    font-size: 5vh;
+    text-align: center;
+    width: 15%;
+}
+h1{
+    font-size: 10vh;
+    text-align: center;
+}
+.logosborder {
+    border-top: 2px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+    
+    
+}
+.pp1 {
+    font-size: 3vh;
+    font-style: italic;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.classCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:50px;
+    padding-bottom: 50px;
+}
+   
+.imgCenter{    
+    width:100%;
+    height:70vh;
+
+}
+li{
+    color:white;
+    
+    font-family: serif;
+    font-style: italic;
+    font-size:5vh
+
+}
+h2 {
+    color:white;
+    font-family: serif;
+    font-size:5vh
+
+}
+ul{
+ width:80%;
+}
+li{
+    width: 80%;
+}
+.cardWhite{
+    padding-left: 20px;
+}
+
 .content{
-  font-size:0;
-  width:790px;
-  margin:100px auto 50px;
-  
-}
+    font-size:0;
+    width:100%;
+    
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:center;
+    
 
-.overlay {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .5);
-  display:flex;
+    
 }
-
 .card {
-    width:350px;
+  width:350px;
   margin-bottom:60px;
+  margin-top:60px;
   padding: 45px 45px 70px;
   display:inline-block;
-  margin-right:90px;
-  box-shadow: 4px 4px 5px rgba(250, 50 , 50 ,.4);
-}
-.no-right-margin{
-  margin-right:0;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  box-shadow: 1px 1px 9px 2px rgba(255, 222 , 89 ,.4);
   
 }
 
-.card-title {
-  font-size:24px;
+
+  .card-image {
+    width:100%;
+    height: 46vh;
+    margin-bottom:25px;
+  }
+  h3{
+    color:white;
+    font-family: serif;
+    text-align: center;
+  }
+  .card-title {
+    font-size:24px;
+      font-weight:500;
+    margin-bottom:10px;
+
+  }
+  .no-right-margin{
+    margin: right 0;
+    
+  }
+
+  h4{
+    color:white;
+    font-family: serif;
+    text-align: center;
+  }
+  .card-text {
+    font-size:20px;
+    text-transform: uppercase;
+  }
+  .button {
+    background-color: black;
+    display:block;
+    justify-content:center;
+    margin-top: 20px;
+    width:150px;
+    height:50px;
+    border:1px solid white;
+    margin:20px auto 0;
+    
+    
+      
+      
+      
+  }
+  .buttonInside{
+    font-size:20px;
     font-weight:500;
-  margin-bottom:10px;
-}
-.card-text {
-  font-size:16px;
-}
-.card-image {
-  width:100%;
-  margin-bottom:25px;
-}
-.footer{
-  height: 300px;
-  background-color: black;
-  display:flex;
-}
-.footer-author{
-  font-size: 24px;
-  color: white;
-  margin:auto;
-}
+    margin-bottom:10px;
+    text-decoration:none;
+    font-family: arial;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+
+ }
+ a{
+    color:white;
+ }
+
+ .merch{
+     text-align: center;
+ }
+ .telegram {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+ .telegramLogo{
+     height:10vh
+ }
+ .telegramText{
+     font-size: 1.3vw;
+     height:3vh;
+     width: 9vw;
+     text-align: center;
+     margin-bottom: 3vh;
+     
+     
+
+ }
+ @media  screen and (max-width:980px) {
+     .classCenter{
+         display: flex;
+         flex-wrap:wrap;
+         margin-right:5vw;
+        margin-left:-9vw
+     }
+     .telegram{
+         display:flex;
+         justify-content: center;
+         
+         align-items: center;
+        }
+    .telegramText{
+            font-size: 2vh;
+            height:0vh;
+            width: 20vw;
+            text-align: center;
+    }
+         
+
+     }
