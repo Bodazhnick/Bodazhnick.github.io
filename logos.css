@@ -124,6 +124,7 @@ li{
     width:100%;
     height: 46vh;
     margin-bottom:25px;
+    object-fit: contain;
   }
   h3{
     color:white;
