@@ -42,6 +42,9 @@ font-style: italic;
     text-align: center;
     width: 15%;
 }
+.textMus{
+
+}
 h1{
     font-size: 10vh;
     text-align: center;
@@ -214,8 +217,10 @@ img {
      .classCenter{
          display: flex;
          flex-wrap:wrap;
-         margin-right:5vw;
-        margin-left:-9vw
+         justify-content: center;
+         flex-direction: column;
+         padding: 0;
+         
      }
      .telegram{
          display:flex;
@@ -224,11 +229,37 @@ img {
          align-items: center;
         }
     .telegramText{
-            font-size: 2vh;
+            font-size: 10px;
             height:0vh;
-            width: 20vw;
+            width: 20vh;
             text-align: center;
     }
          
 
      }
+@media screen and (max-width:980px)  {
+.textfontheader{
+    display: none;
+} 
+.cardWhite {
+    padding-left:0;
+    text-align: center;
+} 
+.museumDif{
+    
+    justify-content: center;
+}
+ul{
+    justify-content: center;
+    text-align: center;
+    margin: 5vh auto;
+    padding: 0;
+}
+li{
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    list-style-type: none;
+    padding-left: 0
+}
+}
