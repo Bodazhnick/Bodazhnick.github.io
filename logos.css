@@ -211,6 +211,31 @@ img {
     object-fit: contain;
 
 }
+.footer{
+    border-top: 2px solid rgb(255, 255, 255);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.inst{
+    margin-top: 5vh;
+    margin-bottom:5vh ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.instQr{
+    width: 15vw;
+    height: 15vh;
+    margin: 10px auto;
+    align-items: center;
+}
+
+
  @media  screen and (max-width:980px) {
      .classCenter{
          display: flex;
@@ -220,7 +245,17 @@ img {
          padding: 0;
          
      }
-     .telegram{
+ .instQr{
+        width: 30vw;
+        height: 20vh;
+        margin: 10px auto;
+        align-items: center;
+    }
+    .instH{
+        font-size: 200%;
+    }
+
+    .telegram{
          display:flex;
          justify-content: center;
          
