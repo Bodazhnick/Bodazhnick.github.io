@@ -78,7 +78,7 @@ li{
     
     font-family: serif;
     font-style: italic;
-    font-size:5vh
+    font-size:2vh
 
 }
 h2 {
@@ -161,12 +161,7 @@ li{
     height:50px;
     border:1px solid white;
     margin:20px auto 0;
-    
-    
-      
-      
-      
-  }
+}
   .buttonInside{
     font-size:20px;
     font-weight:500;
@@ -176,6 +171,29 @@ li{
     display: block;
     text-align: center;
     line-height: 50px;
+
+ }
+ .buttonA {
+    background-color: black;
+    display:block;
+    justify-content:center;
+    margin-top: 20px;
+    width: 300px;
+    height:150px;
+   
+    margin:20px auto 0;
+    margin-bottom: 0vh;
+}
+  .buttonInsideA{
+    font-size:20px;
+    font-weight:500;
+    margin-bottom:10px;
+    text-decoration:none;
+    font-family: arial;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid white;
 
  }
  a{
